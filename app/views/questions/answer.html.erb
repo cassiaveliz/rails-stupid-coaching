@@ -1,0 +1,11 @@
+<div class="quote">
+    <%= params[:question] %>
+    <br><i>— You</i>
+</div>
+
+<div class="quote answer">
+    <strong><%= @answer %></strong>
+    <br><i>— Your coach</i>
+</div>
+
+<%= link_to "ask again", ask_path %>

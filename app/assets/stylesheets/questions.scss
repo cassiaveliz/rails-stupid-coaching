@@ -1,0 +1,35 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css);
+
+body {
+    background: #F7F7F7; // Using this variable
+    margin: 50px;
+    justify-content: center;
+}
+
+.container {
+    width: 500px;
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.form-control {
+    border-radius: 4px 0px 0px 4px !important;
+}
+
+.btn {
+    border-radius: 0px 4px 4px 0px !important;
+}
+
+.quote {
+    background-color: #FFF;
+    border-left:5px solid #dddddd;
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+.answer {
+    background-color: #FFFFE1;
+}
